@@ -16,12 +16,10 @@
 
 ## 1.Webアプリケーションとフレームワーク
 
-
 1-1Webアプリケーションを作成するにはさまざまな知識が必要で、高度な知識が要求されます。
 　Webアプリケーションと言ってもクライアント側での処理、サーバー側での処理があり、データを記録し、処理をさせるならば、
 　データベースの知識も要求されます。
 　これを一から習得、作成するには、大変な労力と高度な知識を伴います。
-　
 　それがRuby on Railsの登場により、状況が変化しました。
 　
 　Webアプリケーションを作る際の時間を大幅に短縮し、実際に動作するWebアプリケーションを作れてしまうものです。
@@ -37,11 +35,10 @@
 　お料理キットにも種類はありますが、総じて具材があらかじめ、人数分用意されており、カットや皮むきなど下ごしらえも済んで、
 　袋ごとにパックされており、付属の手順（レシピ）に沿って、手持ちのフライパンや鍋で調理することで、一品が完成するというものです。
 　
-　お料理キットは調理にかかる時間を短縮するばかりでなく、調理の敷居を下げて、簡単な調理だけで、
-　完成するために考えられたものです。
+　お料理キットは調理にかかる時間を短縮するばかりでなく、調理の敷居を下げて、簡単な調理だけで、完成するために考えられたものです。
 　つまり、一品を調理するために必要な要素(具材、カット、味付け、調理の手順等)があらかじめ用意されているのがお料理キットです。
 　
-　プログラミングにおけるフレームワークもこのお料理キットに類似しています。
+　プログラミングにおけるフレームワークもこのお料理キットに"類似"しています。
 　プログラムの処理の構造や仕組みはおおよそ共通点が多いのですが、この共通部分が動作するようにあらかじめ用意されており、
 　共通部分以外の固有の部分については、足りない部分を作成者が補うことでシステムが組めてしまうものです。
 　
@@ -73,7 +70,7 @@
 　
 ### 5.Ruby on Railsをインストールしてみよう
 　　ここからはRuby2.3.3がインストールされているWindows環境を前提にRuby on Railsを使うための手順を説明します。
-　
+　　
 ### 5-1.Development Kitをダウンロードする
 　　https://rubyinstaller.org/downloads/　　にアクセスします。
 　　
@@ -85,14 +82,13 @@
 　　　For use with Ruby 2.0 to 2.3 (32bits version only):
 　　　　DevKit-mingw64-32-4.7.2-20130224-1151-sfx.exe
 　　
-　　
 　　・Windowsが64ビット版は以下をダウンロードします。
 　　　For use with Ruby 2.0 to 2.3 (x64 - 64bits only)
 　　　　DevKit-mingw64-64-4.7.2-20130224-1432-sfx.exe
-　　
-　　
+　　　　
+　　　　
 　　　　【32ビットと64ビットの確認方法】
-　　
+　　　　
 　　　◆Windows10の場合
 　　　スタートボタンを右クリックし、表示されたメニューのシステムをクリックします。
 　　　設定ウィンドウが表示され、右側の中央からやや下のデバイスの仕様に書かれている「システムの種類」に箇所が
@@ -105,8 +101,8 @@
 　　　表示されたコントロールパネルのシステムウィンドウでウィンドウ下部の「システムの種類」に
 　　　32ビットオペレーティングシステムと記載されていたら、32ビット版をダウンロードします。
 　　　64ビットオペレーティングシステムと記載されていたら、64ビット版をダウンロードします。
-　　
-　　
+　　　
+　　　
 　　次にRubyがインストールされているフォルダを開きます。
 　　規定ではC:\Ruby23-x64フォルダ(32ビット版はC:\Ruby23)にインストールされていますので、
 　　エクスプローラーを開き、Cドライブをダブルクリックし、Ruby23-x64(32ビット版はC:\Ruby23)フォルダを開きます。
@@ -120,6 +116,7 @@
 　　
 　　次にコマンドプロンプトを起動し、以下のコマンドを入力し、Enterキーを押下します。
 　　このコマンドはカレントディレクトリを先程、作成したdevkitフォルダに移動するコマンドです。
+　　
 　　
 　　【32ビット版の場合】
 　　C:\>cd C:\Ruby23\devkit
@@ -153,7 +150,8 @@
 　　[INFO] Updating convenience notice gem override for 'C:/Ruby23-x64'
 　　[INFO] Installing 'C:/Ruby23-x64/lib/ruby/site_ruby/devkit.rb'
 　　
-　　コマンドプロンプトはそのまま閉じないようにします。
+　　
+　　コマンドプロンプトはそのまま閉じないようにします。次の5-2へ進みましょう。
 　　
 　　
 ### 5-2.Ruby on Rails 5をインストール
@@ -168,17 +166,18 @@
 　　多くのパッケージがダウンロードされますので、完了するまで数分待ちましょう。
 　　
 　　Installing ri documentation for rails-5.2.2
-　　Done installing documentation for concurrent-ruby, i18n, thread_safe, 
-　　tzinfo, activesupport, rack, rack-test, mini_portile2, nokogiri, crass, 
-　　loofah, rails-html-sanitizer, rails-dom-testing, builder, erubi, actionview, 
-　　actionpack, activemodel, arel, activerecord, globalid, activejob, mini_mime, 
-　　mail, actionmailer, nio4r, websocket-extensions, websocket-driver, actioncable, 
-　　mimemagic, marcel, activestorage, thor, method_source, railties, bundler, sprockets, 
+　　Done installing documentation for concurrent-ruby, i18n, thread_safe,
+　　tzinfo, activesupport, rack, rack-test, mini_portile2, nokogiri, crass,
+　　loofah, rails-html-sanitizer, rails-dom-testing, builder, erubi, actionview,
+　　actionpack, activemodel, arel, activerecord, globalid, activejob, mini_mime,
+　　mail, actionmailer, nio4r, websocket-extensions, websocket-driver, actioncable,
+　　mimemagic, marcel, activestorage, thor, method_source, railties, bundler, sprockets,
 　　sprockets-rails, rails after 155 seconds
 　　39 gems installed
 　　
 　　一番最後に上記のようなメッセージが表示されたら、完了です。
-　　そのままコマンドプロンプトは閉じずに、次でRuby on Railsのバージョン確認を実行します。
+　　
+　　そのままコマンドプロンプトは閉じずに、次で5-3.Ruby on Railsのバージョン確認を実行します。
 　　
 ### 5-3.Ruby on Railsのバージョンを確認してみよう
 　　Ruby on Railsがインストールできたら、以下のコマンドを入力してみましょう。
