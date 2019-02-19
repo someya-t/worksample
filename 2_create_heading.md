@@ -1,5 +1,6 @@
 # Ruby on Railsの基礎
 
+
 ## 0.このテキストのゴール
 本格的にRuby on RailsでWebアプリケーションを作成するに当たって必要な２つの知識とRuby on Railsのインストールを実践しましょう。
 
