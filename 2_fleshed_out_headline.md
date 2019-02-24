@@ -78,13 +78,13 @@ devkitフォルダにevelopment Kitが解凍されます。
 1. 次にコマンドプロンプトを起動し、以下のコマンドを入力し、Enterキーを押下します。  
 このコマンドはカレントディレクトリを先程作成したdevkitフォルダに移動するコマンドです。  
 【32ビット版の場合】  
-![カレントディレクトリを切り替える1_32ビット](https://github.com/someya-t/worksample/blob/work/image/com_cd_32bit1.png)  
+![カレントディレクトリを切り替える1_32ビット](https://github.com/someya-t/worksample/blob/images/image/com_cd_32bit1.png)  
 実行後：  
-![カレントディレクトリを切り替える2_32ビット](https://github.com/someya-t/worksample/blob/work/image/com_cd_32bit2.png)  
+![カレントディレクトリを切り替える2_32ビット](https://github.com/someya-t/worksample/blob/images/image/com_cd_32bit2.png)  
 【64ビット版の場合】  
-![カレントディレクトリを切り替える1_64ビット](https://github.com/someya-t/worksample/blob/work/image/com_cd_64bit1.png)  
+![カレントディレクトリを切り替える1_64ビット](https://github.com/someya-t/worksample/blob/images/image/com_cd_64bit1.png)  
 実行後：  
-![カレントディレクトリを切り替える2_64ビット](https://github.com/someya-t/worksample/blob/work/image/com_cd_64bit2.png)  
+![カレントディレクトリを切り替える2_64ビット](https://github.com/someya-t/worksample/blob/images/image/com_cd_64bit2.png)  
 
 1. 次に以下のコマンドを入力し、Enterキーを押下します。  
 c:\Ruby22-x64\devkit>ruby dk.rb init  
@@ -146,7 +146,7 @@ sprockets-rails, rails after 155 seconds
 ### 5-3.Ruby on Railsのバージョンを確認してみよう
 Ruby on Railsがインストールできたら、以下のコマンドを入力してみましょう。  
 
-![Raillsのバージョンを確認する](https://github.com/someya-t/worksample/blob/work/image/com_raills-v.png)  
+![Raillsのバージョンを確認する](https://github.com/someya-t/worksample/blob/images/image/com_raills-v.png)  
 
 バージョンが表示されることを確認してください。  
 これでRuby on Railsのインストールが完了しました。これからRuby on Railsを使って開発する準備が整いました。  
