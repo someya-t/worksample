@@ -94,7 +94,6 @@ devkitフォルダにevelopment Kitが解凍されます。
 
 1. 次に以下のコマンドを入力し、Enterキーを押下します。  
 ![devkit_install2](https://github.com/someya-t/worksample/blob/images/image/com_dkrbinstall1.png)  
-↓  
 実行後：  
 ![devkit_install2](https://github.com/someya-t/worksample/blob/images/image/com_dkrbinstall2.png)  
 
