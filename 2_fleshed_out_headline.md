@@ -60,7 +60,7 @@ MVCとは何かというと、Ruby on Railsの内部構造を説明する用語�
 ![RubyInstaller for Windowsサイト](https://github.com/someya-t/worksample/blob/images/image/rybyinst_downloard1.png)  
 ページ下部のDEVELOPMENT KIT (OLD)の箇所で利用しているPCによって、32ビット版、64ビット版のいずれかをダウンロードします。  
 ![32bitまたは64bitを確認してダウンロードする](https://github.com/someya-t/worksample/blob/images/image/rybyinst_downloard2.png)  
-お使いのWindowsOSが32ビット版、64ビット版の確認方法は以下の【32ビットと64ビットの確認方法】を参照します。 
+お使いのWindowsOSが32ビット版、64ビット版の確認方法は7.の下に記載の【32ビットと64ビットの確認方法】を参照します。 
 
 1. 次にRubyがインストールされているフォルダを開きます。  
 規定ではC:\Ruby23-x64フォルダ(32ビット版はC:\Ruby23)にインストールされていますので、  エクスプローラーを開き、Cドライブをダブルクリックし、Ruby23-x64(32ビット版はC:\Ruby23)フォルダを開きます。
