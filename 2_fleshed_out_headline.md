@@ -87,21 +87,15 @@ devkitフォルダにevelopment Kitが解凍されます。
 ![カレントディレクトリを切り替える2_64ビット](https://github.com/someya-t/worksample/blob/images/image/com_cd_64bit2.png)  
 
 1. 次に以下のコマンドを入力し、Enterキーを押下します。  
-c:\Ruby22-x64\devkit>ruby dk.rb init  
+![devkit_install1](https://github.com/someya-t/worksample/blob/images/image/com_dkrbinit1.png)  
 実行後：  
-c:\Ruby22-x64\devkit>ruby dk.rb init  
-[INFO] found RubyInstaller v2.3.3 at C:/Ruby23-x64  
-Initialization complete! Please review and modify the auto-generated'  
-config.yml' file to ensure it contains the root directories to all  
-of the installed Rubies you want enhanced by the DevKit.  
+![devkit_install1](https://github.com/someya-t/worksample/blob/images/image/com_dkrbinit2.png)  
 
 1. 次に以下のコマンドを入力し、Enterキーを押下します。  
-c:\Ruby22-x64\devkit>ruby dk.rb install  
+![devkit_install2](https://github.com/someya-t/worksample/blob/images/image/com_dkrbinstall1.png)  
 ↓  
 実行後：  
-c:\Ruby22-x64\devkit>ruby dk.rb install  
-[INFO] Updating convenience notice gem override for 'C:/Ruby23-x64'  
-[INFO] Installing 'C:/Ruby23-x64/lib/ruby/site_ruby/devkit.rb'
+![devkit_install2](https://github.com/someya-t/worksample/blob/images/image/com_dkrbinstall2.png)  
 
 コマンドプロンプトはそのまま閉じないようにします。次の5-2へ進みましょう。  
 
@@ -125,19 +119,10 @@ Ruby on RailsをインストールするにはRubyに付属されているgemと
 このgemを使うと必要な機能を追加できるようになっています。実際にRuby on Railsをgemを使ってインストールします。  
 以下のコマンドを入力し、Enterキーを押下します。
 
-c:\Ruby22-x64\devkit>gem install rails  
-
+![raillsinstall1](https://github.com/someya-t/worksample/blob/images/image/com_gem_raills_inst.png)  
 多くのパッケージがダウンロードされますので、完了するまで数分待ちましょう。  
 
-Installing ri documentation for rails-5.2.2  
-Done installing documentation for concurrent-ruby, i18n, thread_safe,  
-tzinfo, activesupport, rack, rack-test, mini_portile2, nokogiri, crass,  
-loofah, rails-html-sanitizer, rails-dom-testing, builder, erubi, actionview,  
-actionpack, activemodel, arel, activerecord, globalid, activejob, mini_mime,  
-mail, actionmailer, nio4r, websocket-extensions, websocket-driver, actioncable,  
-mimemagic, marcel, activestorage, thor, method_source, railties, bundler, sprockets,  
-sprockets-rails, rails after 155 seconds  
-39 gems installed  
+![raillsinstall1](https://github.com/someya-t/worksample/blob/images/image/com_gem_raills_inst2.png)  
 
 一番最後に上記のようなメッセージが表示されたら、完了です。  
 
