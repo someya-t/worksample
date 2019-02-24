@@ -56,9 +56,9 @@ MVCとは何かというと、Ruby on Railsの内部構造を説明する用語�
 ### 5-1.Development Kitをダウンロードする
 
 1. [RubyInstaller for Windows](https://rubyinstaller.org/downloads/)にアクセスします。  
-![RubyInstaller for Windowsサイト](https://github.com/someya-t/worksample/blob/work/image/rybyinst_downloard1.png)  
+![RubyInstaller for Windowsサイト](https://github.com/someya-t/worksample/blob/images/image/rybyinst_downloard1.png)  
 ページ下部のDEVELOPMENT KIT (OLD)の箇所で利用しているPCによって、32ビット版、64ビット版のいずれかをダウンロードします。  
-![32bitまたは64bitを確認してダウンロードする](https://github.com/someya-t/worksample/blob/work/image/rybyinst_downloard2.png)  
+![32bitまたは64bitを確認してダウンロードする](https://github.com/someya-t/worksample/blob/images/image/rybyinst_downloard2.png)  
 お使いのWindowsOSが32ビット版、64ビット版の確認方法は以下の【32ビットと64ビットの確認方法】を参照します。 
 
 1. 次にRubyがインストールされているフォルダを開きます。  
