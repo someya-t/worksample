@@ -130,10 +130,10 @@ Ruby on RailsをインストールするにはRubyに付属されているgemと
 そのままコマンドプロンプトは閉じずに、次で5-3.Ruby on Railsのバージョン確認を実行します。  
 
 ### 5-3.Ruby on Railsのバージョンを確認してみよう
-Ruby on Railsがインストールできたら、以下のコマンドを入力してみましょう。  
+Ruby on Railsがインストールできたら、以下のコマンドを入力し、実行してみましょう。  
 
 ![Raillsのバージョンを確認する](https://github.com/someya-t/worksample/blob/images/image/com_raills-v.png)  
 
-バージョンが表示されることを確認してください。  
+上記のようにバージョンが表示されることを確認してください。  
 これでRuby on Railsのインストールが完了しました。これからRuby on Railsを使って開発する準備が整いました。  
 お疲れ様でした。ここまで本テキストは終了です。
